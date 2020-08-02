@@ -13,6 +13,5 @@ phases:
 artifacts:
   discard-paths: yes
   files:
-    - src/*
     - app.js
     - server.js
