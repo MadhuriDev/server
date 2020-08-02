@@ -10,7 +10,7 @@ phases:
   post_build:
     commands:
       - mkdir -p MyApp
-#artifacts:
-#  discard-paths: yes
-#  files:
-#    - MyApp
+artifacts:
+  discard-paths: yes
+  files:
+    - */**
