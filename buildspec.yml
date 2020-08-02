@@ -3,7 +3,7 @@ phases:
   install:
     commands:
       - printenv
-      - npm install
+      - npm install server
   build:
     commands:
       - npm run build
