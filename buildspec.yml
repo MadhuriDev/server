@@ -10,7 +10,7 @@ phases:
   post_build:
     commands:
       - mkdir -p build
-#artifacts:
-#  files:
-#    - build*/**
-#  discard-paths: yes
+artifacts:
+  files:
+    - build*/**
+  discard-paths: yes
