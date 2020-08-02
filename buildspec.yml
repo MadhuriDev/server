@@ -11,6 +11,6 @@ phases:
     commands:
       - mkdir -p test-app
 artifacts:
-  files:
-    - test-app*/**
   discard-paths: yes
+  files:
+    - MyApp
