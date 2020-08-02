@@ -9,7 +9,7 @@ phases:
       - npm run build
   post_build:
     commands:
-      - mkdir -p test-app
+      - mkdir -p MyApp
 artifacts:
   discard-paths: yes
   files:
