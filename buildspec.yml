@@ -9,8 +9,8 @@ phases:
       - npm run build
   post_build:
     commands:
-      - mkdir -p build
+      - mkdir -p test-app
 artifacts:
   files:
-    - build*/**
+    - test-app*/**
   discard-paths: yes
